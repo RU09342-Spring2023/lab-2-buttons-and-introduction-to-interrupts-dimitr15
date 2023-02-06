@@ -77,3 +77,15 @@ Then load up Energy Trace and perform the similar capture of Power with the LED 
 
 # Screenshots and Answers to Questions
 **Replace this section with your screenshots of Energy Trace and provide some reasoning as to Questions 1 and 2 in the Power consumption of the Interrupts Section.**
+
+Code with Software Polling
+![image](https://user-images.githubusercontent.com/113446166/216855187-bb672d42-9450-4ce8-8e37-148b89073ddb.png)
+
+Code with Interrupts
+![image](https://user-images.githubusercontent.com/113446166/216855575-56bbc2ff-c6a1-42b2-8bff-1f0bc0ed1d5e.png)
+
+1. The polling example switches the LED on and off after each press. Whereas in the interrupt, the LED lights up only while your pressing, once you release the 
+button it's turned off. 
+
+2. IDk
+
